@@ -56,11 +56,13 @@ h3 {
 }
 
 input,
-button{
+button,
+.input-button{
   outline: none;
 }
 
-button {
+button,
+.input-button {
   background: none;
   border: 0px;
   color: #888;
@@ -70,14 +72,15 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button:hover,
+.input-button:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
 
 h3,
-label[for="new-task"] {
+.new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -106,7 +109,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-label[for="new-task"] {
+.new-task {
   display: block;
   margin: 0 0 20px;
 }
